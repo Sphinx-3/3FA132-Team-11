@@ -1,3 +1,5 @@
+package database.classes;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -8,6 +10,6 @@ public class main {
 
 
 
-        Connection con = DriverManager.getConnection()
+        Connection con = DriverManager.getConnection();
     }
 }
